@@ -28,9 +28,9 @@ const columns = [
     key: 'config',
     render: (text, record) => (
       <>
-        <a onClick={record.onEdit}>编辑</a>
+        <span onClick={record.onEdit}>编辑</span>
         &nbsp;
-        <a onClick={record.onDelete}>删除</a>
+        <span onClick={record.onDelete}>删除</span>
       </>
     ),
   }
