@@ -70,7 +70,7 @@ const PageContent = () => {
         icon={<PlusOutlined/>}
         onClick={handleClick}
       >
-        新增用户(新版本2)
+        新增用户(新版本3)
       </Button>
       <DataTable
         style={{marginTop: '10px'}}
